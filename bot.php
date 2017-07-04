@@ -20,11 +20,11 @@ if (!is_null($events['events'])) {
 		    $t_text=strtolower(trim($event['message']['text']));
 		 
 			 
-			if($t_text=='PR'){
+			if($t_text=='pr'){
 				$text ='Promotion ..............';
-			}elseif($t_text=='BR'){
+			}elseif($t_text=='br'){
 				$text ='Branch...........';
-			}elseif($t_text=='OCT'){
+			}elseif($t_text=='oct'){
 				$text ='Open - Close';
 			}else{
 				$text ='Under constrcution';
