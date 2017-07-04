@@ -29,7 +29,11 @@ if (!is_null($events['events'])) {
 			}else{
 				$text ='Thank you for interesting the Line Bot by Minnie 
 				
-						   (shiny) Promtion typing is PR ';
+						  - Promtion typing is PR 
+						  
+						  - Payment Shop typing is BR
+						  
+						  - Open and Close Time typing is OCT';
 				/*
 				$text='(blowkiss) ขอบคุณค่ะที่ให้ความสนใจ Line Bot by Minnie บริการเบื้องต้นที่ภูมิใจนำเสนอคุณ  (scissors)
 
