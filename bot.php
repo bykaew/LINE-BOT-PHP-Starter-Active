@@ -18,7 +18,8 @@ if (!is_null($events['events'])) {
 			/**** Addition Code *****/
 
 		    $t_text=strtolower(trim($event['message']['text']));
-			$text=$t_text;
+		 
+			 
 			if($t_text=='PR'){
 				$text ='Promotion ..............';
 			}elseif($t_text=='BR'){
@@ -28,6 +29,7 @@ if (!is_null($events['events'])) {
 			}else{
 				$text ='Under constrcution';
 			}
+			 
 			/************************/
 
 			// Get replyToken
