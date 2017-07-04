@@ -29,7 +29,7 @@ if (!is_null($events['events'])) {
 			}else{
 				$text ='Thank you for interesting the Line Bot by Minnie 
 				
-						  - Promtion typing is PR 
+						  - æ‘¡æÏPromtion typing is PR 
 						  
 						  - Payment Shop typing is BR
 						  
