@@ -13,7 +13,22 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 			// Get text sent
 			//$text = $event['message']['text'];
-			$text ='Menu';
+			//$text ='Menu';
+
+			/**** Addition Code *****/
+
+		    $t_text=strtolower(trim($event['message']['text']));
+			if($t_text=='PR'){
+				$text ='Promotion Ja';
+			}elseif($t_text=='BR'){
+				$text ='สาขาจุดชำระเงิน';
+			}elseif($t_text=='OCT'){
+				$text ='เวลาเปิด-ปิด';
+			}else{
+				$text ='อยู่ระหว่างการพัฒนา';
+			}
+			/************************/
+
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 
