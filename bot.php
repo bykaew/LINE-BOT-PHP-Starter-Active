@@ -18,14 +18,15 @@ if (!is_null($events['events'])) {
 			/**** Addition Code *****/
 
 		    $t_text=strtolower(trim($event['message']['text']));
+			$text=$t_text;
 			if($t_text=='PR'){
-				$text ='Promotion Ja';
+				$text ='Promotion ..............';
 			}elseif($t_text=='BR'){
-				$text ='สาขาจุดชำระเงิน';
+				$text ='Branch...........';
 			}elseif($t_text=='OCT'){
-				$text ='เวลาเปิด-ปิด';
+				$text ='Open - Close';
 			}else{
-				$text ='อยู่ระหว่างการพัฒนา';
+				$text ='Under constrcution';
 			}
 			/************************/
 
