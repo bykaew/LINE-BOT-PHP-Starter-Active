@@ -25,9 +25,9 @@ if (!is_null($events['events'])) {
 			}elseif($t_text=='br'){
 				$text ='Branch...........';
 			}elseif($t_text=='oct'){
-				$text ='Open - Close Shope';
+				$text ='Open - Close Shop';
 			}else{
-				$text ='Line Bot by Minnie';
+				$text ='ขอบคุณค่ะที่ให้ความสนใจ Line Bot by Minnie';
 				/*
 				$text='(blowkiss) ขอบคุณค่ะที่ให้ความสนใจ Line Bot by Minnie บริการเบื้องต้นที่ภูมิใจนำเสนอคุณ  (scissors)
 
