@@ -27,7 +27,9 @@ if (!is_null($events['events'])) {
 			}elseif($t_text=='oct'){
 				$text ='Open - Close Shop';
 			}else{
-				$text ='ขอบคุณค่ะที่ให้ความสนใจ Line Bot by Minnie';
+				$text ='Thank you for interesting the Line Bot by Minnie 
+				
+						Promtion is typing  PR ';
 				/*
 				$text='(blowkiss) ขอบคุณค่ะที่ให้ความสนใจ Line Bot by Minnie บริการเบื้องต้นที่ภูมิใจนำเสนอคุณ  (scissors)
 
