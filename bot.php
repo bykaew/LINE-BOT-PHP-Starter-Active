@@ -27,6 +27,8 @@ if (!is_null($events['events'])) {
 			}elseif($t_text=='oct'){
 				$text ='Open - Close';
 			}else{
+				$text='(blowkiss) ขอบคุณค่ะที่ให้ความสนใจ Line Bot by Minnie';
+				/*
 				$text='(blowkiss) ขอบคุณค่ะที่ให้ความสนใจ Line Bot by Minnie บริการเบื้องต้นที่ภูมิใจนำเสนอคุณ  (scissors)
 
 				(shiny) โปรโมชั่นของเรา พิมพ์ PR
@@ -35,6 +37,7 @@ if (!is_null($events['events'])) {
 
 				(shiny)  เวลาเปิดปิดของจุดชำระเงิน พิมพ์ OCT
 				';
+				*/
 			}
 			 
 			/************************/
