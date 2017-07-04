@@ -13,8 +13,7 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 			// Get text sent
 			//$text = $event['message']['text'];
-			$text = "เเมนูจ้า <br>
-					   พิมพ์ 1 ";
+			$text ='Menu';
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 
