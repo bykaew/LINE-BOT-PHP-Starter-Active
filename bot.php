@@ -27,7 +27,7 @@ if (!is_null($events['events'])) {
 			}elseif($t_text=='oct'){
 				$text ='Open - Close';
 			}else{
-				$text='(blowkiss) ขอบคุณค่ะที่ให้ความสนใจ Line Bot by Minnie';
+				$text='ขอบคุณค่ะที่ให้ความสนใจ Line Bot by Minnie';
 				/*
 				$text='(blowkiss) ขอบคุณค่ะที่ให้ความสนใจ Line Bot by Minnie บริการเบื้องต้นที่ภูมิใจนำเสนอคุณ  (scissors)
 
